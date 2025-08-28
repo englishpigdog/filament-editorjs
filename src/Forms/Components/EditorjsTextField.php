@@ -17,7 +17,7 @@ class EditorjsTextField extends Field
 
     protected string $view = 'filament-editorjs::components.editorjs-text-field';
 
-    public static function make(string $name): static
+    public static function make(?string $name = null): static
     {
         $instance = parent::make($name);
 
