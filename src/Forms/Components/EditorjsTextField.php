@@ -14,6 +14,7 @@ class EditorjsTextField extends Field
     use HasImageUploadEndpoints;
     use HasPlaceholder;
     use HasTools;
+    use Concerns\HasFileAttachments;
 
     protected string $view = 'filament-editorjs::components.editorjs-text-field';
 
