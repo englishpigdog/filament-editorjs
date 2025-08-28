@@ -3,7 +3,6 @@
 namespace Athphane\FilamentEditorjs\Forms\Components;
 
 use Athphane\FilamentEditorjs\Forms\Concerns\HasHeight;
-use Athphane\FilamentEditorjs\Forms\Concerns\HasImageUploadEndpoints;
 use Athphane\FilamentEditorjs\Forms\Concerns\HasTools;
 use Filament\Forms\Components\Field;
 use Filament\Support\Concerns\HasPlaceholder;
