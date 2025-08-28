@@ -6,6 +6,7 @@ use Athphane\FilamentEditorjs\Forms\Concerns\HasHeight;
 use Athphane\FilamentEditorjs\Forms\Concerns\HasTools;
 use Filament\Forms\Components\Field;
 use Filament\Support\Concerns\HasPlaceholder;
+use Athphane\FilamentEditorjs\Forms\Concerns\HasImageUploadEndpoints;
 use Filament\Forms\Components\Concerns\HasFileAttachments;
 
 class EditorjsTextField extends Field
@@ -13,7 +14,8 @@ class EditorjsTextField extends Field
     use HasHeight;
     use HasPlaceholder;
     use HasTools;
-    use HasFileAttachments;
+    use HasFileAttachments; //v4
+    use HasImageUploadEndpoints;
 
     protected string $view = 'filament-editorjs::components.editorjs-text-field';
 
