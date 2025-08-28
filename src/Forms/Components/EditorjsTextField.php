@@ -11,7 +11,6 @@ use Filament\Forms\Components\Concerns\HasFileAttachments;
 class EditorjsTextField extends Field
 {
     use HasHeight;
-    use HasImageUploadEndpoints;
     use HasPlaceholder;
     use HasTools;
     use HasFileAttachments;
